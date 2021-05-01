@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetSmart" parallel="tests">
+    <test name="First Page">
+        <classes>
+            <class name="Pet.Tests.FirstPageTest">
+                <methods>
+                    <include name="FirstLogin"/>
+                    </methods>
+            </class>
+        </classes>
+
+    </test>
+
+
+            <test name="Pet Grooming Service">
+                <classes>
+            <class name="Pet.Tests.FirstPageTest">
+                <methods>
+                    <include name="petGrooming"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

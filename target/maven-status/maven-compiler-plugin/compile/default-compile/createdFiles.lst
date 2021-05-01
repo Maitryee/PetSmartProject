@@ -1,0 +1,7 @@
+Pet\PageObjects\FirstPage.class
+Pet\PageObjects\LoginPage.class
+Pet\PageObjects\AdoptPetPage.class
+Pet\Tests\FirstPageTest.class
+Pet\PageObjects\GroomingPage.class
+Pet\Resources\Base.class
+Pet\Tests\PetAdopt.class
